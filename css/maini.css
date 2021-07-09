@@ -51,13 +51,15 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     width: 100%;
-    padding: 10px 0.5% 0px 0.5%;
+    padding: 10px 0.5% 0px 3.5%;
+
     background: transparent;
     float: left;
     position: fixed;
 }
 /* sdfk */
 /* header */
+/*
 .header {
   width: 100%;
   padding: 35px 15px;
@@ -69,7 +71,7 @@ header {
   z-index: 1000;
   position: fixed;
   background: transparent;
-}
+}*/
 
 .header__inner{
   display: flex;
@@ -635,7 +637,7 @@ header {
   }
 
   .sovet__text {
-    font-size: 14px;
+    font-size: 15px;
   }
   .conec__item__flexs{
     padding-left: 9%;
@@ -708,7 +710,7 @@ header {
   }
 
   .sovet__text{
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .punkt__num {
@@ -719,7 +721,7 @@ header {
     padding: 5px 5px;
 }
   .sovet__header{
-    font-size: 15px;
+    font-size: 17px;
 }
   .sovet img{
     max-width: 100%;
@@ -763,19 +765,19 @@ header {
 
 @media (max-width: 700px) {
   .block__title {
-    font-size: 18px;
+    font-size: 19px;
    }
 
    .block__text {
-     font-size: 12px;
+     font-size: 14px;
      line-height: 19.56px;
-      padding-bottom: 20px;
+      padding-bottom: 32px;
 
    }
 
     .btn{
       padding: 13px 30px;
-      font-size: 11px;
+      font-size: 13px;
     }
 
     .section {
@@ -807,7 +809,7 @@ header {
 
 }
 .contact__link {
-  font-size: 13px;
+  font-size: 15px;
 }
 .contact__item img{
   max-width: 100%;
@@ -827,6 +829,11 @@ header {
 
 
 @media (max-width: 550px){
+
+  .services{
+    display: block;
+  }
+
     .blocking__items {
     display: block;
   }
@@ -836,7 +843,7 @@ header {
   }
   .block__picture {
     border-radius: 0 0;
-    padding: 19px 0;
+    padding: 51px 0;
 
   }
   .block--content {
@@ -847,7 +854,7 @@ header {
     max-width: 390px;
   }
   .pur--first{
-    margin-top: 370px;
+    margin-top: 404px;
 
   }
 
@@ -876,7 +883,7 @@ header {
   }
 
   .punkt__text {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .sovet__info {
@@ -918,19 +925,19 @@ margin-left: 0;
   }
   .services__item img{
     max-width: 100%;
-    width: 33%;
+    width: 20%;
   }
 
   .services__title{
-    font-size: 11px;
+    font-size: 18px;
   }
 
   .servises__text {
-    font-size: 9px;
+    font-size: 16px;
 }
 
 .block__title {
-    font-size: 14px;
+    font-size: 21px;
 }
 
 
@@ -944,11 +951,11 @@ margin-left: 0;
   }
 
   .heder__logo {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .conec__item {
-    font-size: 8px;
+    font-size: 15px;
   }
 
   .conec__item {
@@ -969,19 +976,25 @@ margin-left: 0;
     width: 44%;
   }
   .conec__btn {
-      font-size: 12px;
+      font-size: 15px;
       padding: 4px 27px;
       border: 1px solid #fff;
     }
+
+    .block__text {
+      font-size: 16;
+    }
+
+    .section__title {
+        font-size: 21px;
+    }
+
 }
 
 @media (max-width: 400px){
 
   .block--content{
   max-width: 280px;
-  }
-  .header {
-    padding: 23px 14px;
   }
 
   .block {
@@ -997,9 +1010,7 @@ margin-left: 0;
     padding-top: 41px;
   }
 
-  .block__text {
-    padding-bottom: 34px;
-  }
+
 
   .pur--first {
     margin-top: 286px;
@@ -1009,7 +1020,7 @@ margin-left: 0;
 }
 
 .section__title {
-    font-size: 12px;
+    font-size: 19px;
 }
 
 .services__title {
@@ -1033,7 +1044,7 @@ margin-left: 0;
 }
 
 .punkt__text {
-    font-size: 11px;
+    font-size: 13px;
     margin-left: 17%;
 }
 .sovet img {
@@ -1041,16 +1052,16 @@ margin-left: 0;
 }
 
 .sovet__header {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .sovet__text {
-    font-size: 9px;
+    font-size: 13px;
 }
 .contact__link {
     padding-top: 0px;
     padding-left: 36px;
-    font-size: 9px;
+    font-size: 13px;
 }
 
 .heder__logo img {
@@ -1066,6 +1077,6 @@ margin-left: 0;
   .conec__item {
     padding-top: 54px;
     padding-bottom: 7px;
-    font-size: 6px;
+    font-size: 8px;
   }
 }
