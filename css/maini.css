@@ -769,7 +769,7 @@ header {
    }
 
    .block__text {
-     font-size: 14px;
+     font-size: 17px;
      line-height: 19.56px;
       padding-bottom: 32px;
 
@@ -943,7 +943,7 @@ margin-left: 0;
 
 .heder__logo img{
   max-width: 100%;
-  width: 25%;
+  width: 30%;
 }
 
 .log {
@@ -955,7 +955,7 @@ margin-left: 0;
   }
 
   .conec__item {
-    font-size: 15px;
+    font-size: 8px;
   }
 
   .conec__item {
@@ -981,102 +981,33 @@ margin-left: 0;
       border: 1px solid #fff;
     }
 
-    .block__text {
-      font-size: 16;
-    }
-
     .section__title {
         font-size: 21px;
     }
 
 }
 
-@media (max-width: 400px){
 
-  .block--content{
-  max-width: 280px;
+@media (max-width: 400px){
+  .punkt__text {
+    margin-left: 19%;
+}
+.punkt__num {
+    top: 32px;
+  }
+  .heder__logo img {
+      width: 38%;
+    }
+
+    .block--content {
+    max-width: 299px;
+  }
+
+  .conec__btn {
+    padding: 2px 16px;
   }
 
   .block {
-    padding-top: 100px;
-  }
-
-  .firdt--b img{
-    max-width: 100%;
-    width: 45%
-  }
-
-  .block__picture{
-    padding-top: 41px;
-  }
-
-
-
-  .pur--first {
-    margin-top: 286px;
+    padding-top: 84px;
 }
-.section__header {
-    margin: 44px auto 2px;
-}
-
-.section__title {
-    font-size: 19px;
-}
-
-.services__title {
-    font-size: 8px;
-}
-
-.services__title {
-    margin-bottom: 10px;
-  }
-
-  .services__item:last-child {
-    margin-right: 10px;
-
-}
-
-.services__item:first-child {
-    margin-left: 10px;
-  }
-  .services__item {
-    margin: -13px 5px;
-}
-
-.punkt__text {
-    font-size: 13px;
-    margin-left: 17%;
-}
-.sovet img {
-    width: 15%;
-}
-
-.sovet__header {
-    font-size: 15px;
-}
-
-.sovet__text {
-    font-size: 13px;
-}
-.contact__link {
-    padding-top: 0px;
-    padding-left: 36px;
-    font-size: 13px;
-}
-
-.heder__logo img {
-  width: 37%;
-}
-
-.conec__btn {
-    font-size: 10px;
-    padding: 6px 23px;
-    border: 1px solid #fff;
-  }
-
-  .conec__item {
-    padding-top: 54px;
-    padding-bottom: 7px;
-    font-size: 8px;
-  }
 }
